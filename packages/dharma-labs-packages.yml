@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org/@dharmaprotocol/dharma.js
+notes: >-
+  Dharma Labs (Dharma Protocol) is a defunct DeFi company; its primary
+  developer surface, dharma.io, is now a parked/for-sale domain. The first-party
+  client library published under the @dharmaprotocol npm scope still resolves on
+  the registry and is captured here. It is explicitly marked DEPRECATED by the
+  publisher. No maintained package surface remains.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@dharmaprotocol/dharma.js"
+    url: https://www.npmjs.com/package/@dharmaprotocol/dharma.js
+    install: npm install @dharmaprotocol/dharma.js
+    latest: 0.1.76
+    license: MIT
+    official: true
+    deprecated: true
+    description: >-
+      JavaScript developer library for interacting with the Dharma protocol
+      (tokenized debt / P2P lending on Ethereum). Repository:
+      https://github.com/dharmaprotocol/dharma.js

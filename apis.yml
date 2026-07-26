@@ -1,8 +1,29 @@
 aid: dharma-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dharma-labs.png
 name: Dharma Labs
-description: 'Dharma Labs is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Dharma Labs was a decentralized-finance company that built Dharma Protocol, an
+  open-source Ethereum protocol for tokenized debt and peer-to-peer lending, and
+  later the Dharma non-custodial smart wallet. It was backed by Polychain and was
+  acquired by OpenSea in 2021. The company is defunct: its developer surface at
+  dharma.io is now a parked, for-sale domain with no live API, documentation, or
+  well-known discovery endpoints. Real, first-party remnants still survive on the
+  public registries — the GitHub organization dharmaprotocol (26 public repos,
+  including the dharma.js client library, charta smart contracts, developer-docs,
+  and the dapp-wallet) and the npm package @dharmaprotocol/dharma.js, which is
+  published but explicitly marked DEPRECATED. This profile captures those honest
+  historical artifacts; the provider ships no maintained API today.
 url: https://raw.githubusercontent.com/api-evangelist/dharma-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,19 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Defi
+- Cryptocurrency
+- Ethereum
+- Lending
+- Blockchain
+- Smart Contracts
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,14 @@ maintainers:
 common:
 - type: Website
   url: https://dharma.io
+- type: GitHubOrganization
+  url: https://github.com/dharmaprotocol
+- type: Packages
+  url: packages/dharma-labs-packages.yml
+- type: SDKs
+  url: packages/dharma-labs-packages.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
