@@ -48,7 +48,7 @@ created: '2026-07-17'
 modified: '2026-07-18'
 tags:
 - Company
-- DeFi
+- Defi
 - Cryptocurrency
 - Ethereum
 - Lending
@@ -71,6 +71,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/opensea/
+  name: OpenSea
+  x-relationship: acquired
+  x-evidence: "It was backed by Polychain and was acquired by OpenSea in 2021."
 - type: Website
   url: https://dharma.io
 - type: GitHubOrganization
